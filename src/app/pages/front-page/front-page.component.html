@@ -1,0 +1,27 @@
+<div>
+
+    <div class="container">
+        <div class="header-image">
+            <p style="font-size: 10vh;">BMX Danmark</p>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div *ngFor="let event of events" class=" event">
+
+            <div class="eventTitle">
+                <h1>{{event.title}} </h1>
+                <p>{{event.info}} </p>
+            </div>
+
+    <app-video-list [videos]="event.videos"></app-video-list>
+            
+
+            <hr class="solid">
+
+        </div>
+    </div>
+
+</div>
