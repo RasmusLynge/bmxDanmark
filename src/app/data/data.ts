@@ -4,7 +4,7 @@ import { Event, Video } from "../interfaces/class";
 
 
 
-export const VVK2021: Video[] = [
+export const VVK2020: Video[] = [
     {
         name: "8K BMX",
         desc: `8K BMX udgør BMX'ere fra adskilige lande, der til dagligt kører i Århus C og omegn. Det er første gang at drengene laver en video sammen, men vi på at se mange flere! God bedring til Nikolaj."`,
@@ -189,7 +189,7 @@ export const EVENTS: Event[] = [
     {
         title: "Vinter video konkurrencen 2020",
         info: "Første vinter video konkurrence som varede fra november 2020 til marts 2021",
-        videos: VVK2021
+        videos: VVK2020
     }
 ];
 

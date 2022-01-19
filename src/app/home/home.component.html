@@ -1,7 +1,8 @@
 <div class="example-container" [class.example-is-mobile]="mobileQuery.matches">
     <mat-toolbar class="example-toolbar">
-
-        <h1 class="example-app-name" routerLink="">BMX Danmark</h1>
+        <img class="clickable" src="/../assets/pictures/logo.png" alt="bmxdanmark logo"
+            style="height: 32px; margin: 0px;" routerLink="">
+        <h1 style="margin: 0px;" class="example-app-name clickable" routerLink="">BMX Danmark</h1>
         <span class="example-spacer"></span>
         <button *ngIf="mobileQuery.matches; else wideNav" mat-icon-button (click)="snav.toggle()">
             <mat-icon>menu</mat-icon>
@@ -21,21 +22,21 @@
                 <button mat-icon-button color="primary" class="ruleButton" aria-label="ruleButton"
                     (click)="openLink('https://www.instagram.com/bmxdanmark/')" matTooltip="Find os på Instagram">
                     <img src="assets/pictures/insta.svg"
-                    style="max-height: 60%; max-width: 60%; margin-bottom: -20px; margin-top: -20px;" alt="insta">
-                    
+                        style="max-height: 60%; max-width: 60%; margin-bottom: -20px; margin-top: -20px;" alt="insta">
+
                 </button>
 
-                <button mat-button color="primary" routerLink="" >Hjem</button>
+                <button mat-button color="primary" routerLink="">Hjem</button>
                 <button mat-button color="primary" [matMenuTriggerFor]="beforeMenu">Vinter Video Konkurrencen</button>
                 <mat-menu #beforeMenu="matMenu" xPosition="before">
-                    <button mat-menu-item routerLink="VVK2020">2020</button>  
+                    <button mat-menu-item routerLink="VVK2020">2020</button>
                     <button mat-menu-item routerLink="VVK2021">2021</button>
                 </mat-menu>
-                <button mat-button color="primary" routerLink="arkiv" >Arkiv</button>
-                <button mat-button color="primary" routerLink="kontakt" >Kontakt</button>
+                <button mat-button color="primary" routerLink="arkiv">Arkiv</button>
+                <button mat-button color="primary" routerLink="kontakt">Kontakt</button>
             </ng-template>
 
-            <mat-nav-list> 
+            <mat-nav-list>
 
                 <mat-list>
                     <mat-list-item *ngFor="let nav of navlist">
@@ -51,6 +52,13 @@
 
             <router-outlet></router-outlet>
 
+            <div class="container">
+                <hr class="solid">
+
+                <div style="text-align: right;">
+                    <p>Lavet af Rasmus Lynge</p>
+                </div>
+            </div>
         </mat-sidenav-content>
     </mat-sidenav-container>
 </div>

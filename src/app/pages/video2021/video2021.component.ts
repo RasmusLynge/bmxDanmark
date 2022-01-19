@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Video } from 'src/app/interfaces/class';
-import {VVK2021} from '../../data/data'
+import {VVK2020} from '../../data/data'
 
 @Component({
   selector: 'app-video2021',
@@ -11,7 +11,7 @@ export class Video2021Component implements OnInit {
 
   constructor() { }
 
-  videos: Video[] = VVK2021;
+  videos: Video[] = VVK2020;
 
   ngOnInit(): void {
   }

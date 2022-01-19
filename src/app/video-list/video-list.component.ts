@@ -17,7 +17,6 @@ export class VideoListComponent implements OnInit {
   ngOnInit(): void {
   }
 
-
   
   getVideoId(videoUrl: string): string {
     if(videoUrl.includes("youtube")) {

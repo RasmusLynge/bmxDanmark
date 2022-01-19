@@ -1,9 +1,9 @@
 .header-image {
     min-height: 75vh;
     width: 100%;
-    background-image:  url("/../assets/pictures/trophies.png");
+    background-image: url("/../assets/pictures/trophies.png");
   
-    background-position: center;
+    background-position: left;
     background-size: cover;
     position: relative;
 
@@ -11,4 +11,14 @@
     text-align: center;
     vertical-align: middle;
     line-height: 75vh;
+}
+
+.header-text {
+    padding-left: 50px;
+}
+
+.rules {
+    padding: 20px;
+    
+    border-radius: 10px;
 }

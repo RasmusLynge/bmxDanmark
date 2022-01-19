@@ -1,4 +1,3 @@
-
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @import "~@angular/material/theming";
@@ -9,11 +8,51 @@
 // Be sure that you only ever include this mixin once!
 @include mat-core();
 
+
+$md-palette: (
+    50 : #f8e3eb,
+    100 : #edbace,
+    200 : #e18cad,
+    300 : #d45d8c,
+    400 : #cb3b74,
+    500 : #c2185b,
+    600 : #bc1553,
+    700 : #b41149,
+    800 : #ac0e40,
+    900 : #9f082f,
+    A100 : #ffcbd6,
+    A200 : #ff98ad,
+    A400 : #ff6585,
+    A700 : #ff4c71,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+:root {
+  --accent-color: #c2185b;
+}
+
+
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
 $bmxDanmark-primary: mat-palette($mat-grey, 900);
-$bmxDanmark-accent: mat-palette($mat-brown, A200, A100, A400);
+$bmxDanmark-accent: mat-palette($md-palette);
+
 
 // The warn palette is optional (defaults to red).
 $bmxDanmark-warn: mat-palette($mat-red);
@@ -35,6 +74,15 @@ $bmxDanmark-theme: mat-light-theme(
 // that you are using.
 @include angular-material-theme($bmxDanmark-theme);
 
+$custom-typography: mat-typography-config(
+  $font-family: "Roboto Condensed",
+  $title: mat-typography-level(24px, 32px, 500),
+  $headline: mat-typography-level(24px, 32px, 700),
+  $body-1: mat-typography-level(18px, 18px, 300),
+);
+
+@include mat-core($custom-typography);
+
 html,
 body {
   height: 100%;
@@ -43,38 +91,57 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+h1 {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background: url("assets/pictures/logo.png") no-repeat left top;
+  background-size: 25px;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  line-height: 1.25;
+  height: auto;
+}
 
 /* scrollbar style */
-    /* width */
-    ::-webkit-scrollbar {
-      width: 8px;
-      height: 8px;
-    }
-    
-    /* Track */
-    ::-webkit-scrollbar-track {
-      border-radius: 8px;
-    }
-     
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-      background: #888; 
-      border-radius: 8px;
-    }
-    
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-      background: #555;  
-    }
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 .scrollcol {
   overflow-y: auto !important;
 }
 
-
-
 .app-full-bleed-dialog .mat-dialog-container {
   background-color: black;
   color: white;
   padding: 0;
+}
+
+.clickable:hover {
+  cursor: pointer;
 }
