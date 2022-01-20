@@ -6,35 +6,35 @@
     <h1 mat-dialog-title>{{video.name}} </h1>
 
     <hr class="solid">
-        <div class="">
-            <!-- VIDEO START -->
-            <div class="video-div">
+    <div class="">
+        <!-- VIDEO START -->
+        <div class="video-div">
 
-                <div *ngIf="video.videoUrl?.endsWith('embed'); else youtube">
+            <div *ngIf="video.videoUrl?.endsWith('embed'); else youtube">
 
-                    <ng-template #big>
-                        <div class="ig-container-big">
-                            <iframe *ngIf="video.videoUrl" [src]="updateVideo(video.videoUrl)" frameborder="0"
-                                allowfullscreen class="ig-video-big" alt="video"></iframe>
-                        </div>
-                    </ng-template>
-                </div>
-
-                <ng-template #youtube>
-
-                    <div class="container">
+                <ng-template #big>
+                    <div class="ig-container-big">
                         <iframe *ngIf="video.videoUrl" [src]="updateVideo(video.videoUrl)" frameborder="0"
-                            allowfullscreen class="video" alt="video"></iframe>
+                            allowfullscreen class="ig-video-big" alt="video"></iframe>
                     </div>
                 </ng-template>
-                <hr class="solid">
-                <!-- VIDEO END -->
-
-                <h3> Om {{video.name}}</h3>
-                <p>{{video.desc}}</p>
-
-                <hr class="solid">
             </div>
-        </div>
 
+            <ng-template #youtube>
+
+                <div class="container">
+                    <iframe *ngIf="video.videoUrl" [src]="updateVideo(video.videoUrl)" frameborder="0"
+                        allowfullscreen class="video" alt="video"></iframe>
+                </div>
+            </ng-template>
+            <hr class="solid">
+            <!-- VIDEO END -->
+
+            <h3> Om {{video.name}}</h3>
+            <p>{{video.desc}}</p>
+
+            <hr class="solid">
+        </div>
     </div>
+
+</div>

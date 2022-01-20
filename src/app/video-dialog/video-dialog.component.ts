@@ -19,4 +19,8 @@ export class VideoDialogComponent implements OnInit {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
+  getId(str: string): string {
+    return str.split("/").pop()
+  }
+
 }

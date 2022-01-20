@@ -18,3 +18,10 @@
 .thumbNail {
     width: 100%;
 }
+
+.overflow {
+    overflow: hidden;
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

@@ -12,7 +12,11 @@ export class VideoListComponent implements OnInit {
 
   constructor(public dialog: MatDialog) { }
 
+  
+
   @Input() videos: Video[] = [];
+  
+  
 
   ngOnInit(): void {
   }
@@ -44,5 +48,11 @@ export class VideoListComponent implements OnInit {
       
     });
   }
+
+  ngOnChanges(changes: any) {
+    console.log(changes);
+}
+
+
 
 }

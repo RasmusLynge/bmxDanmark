@@ -12,6 +12,8 @@ import {MatListModule} from '@angular/material/list';
 import {MatDialogModule} from '@angular/material/dialog'; 
 import {MatMenuModule} from '@angular/material/menu'; 
 import {MatTooltipModule} from '@angular/material/tooltip'; 
+import {MatInputModule} from '@angular/material/input'; 
+import {MatSelectModule} from '@angular/material/select'; 
 
 
 
@@ -54,6 +56,8 @@ import { VideoListComponent } from './video-list/video-list.component';
     MatDialogModule,
     MatMenuModule,
     MatTooltipModule,
+    MatInputModule,
+    MatSelectModule,
     
 
 
