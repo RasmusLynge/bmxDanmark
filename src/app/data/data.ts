@@ -5,6 +5,7 @@ import { Event, Video } from "../interfaces/class";
 
 
 export const ARKIV: Video[] = [
+    // YOUTUBE
     {
         name: "Johan Nissen, BMX - FLD ride",
         desc: `Johan: This footage is from FLD skatepark in Copenhagen - filmed during recovery of my recent ankle injuries (both left and right). Therefore it is kept close to the ground and tech, in what i would call Denmarks cleanest skatepark. Have a look.`,
@@ -27,7 +28,7 @@ export const ARKIV: Video[] = [
         videoUrl: "https://www.youtube-nocookie.com/embed/CHStnwOibQs",
         riders: ["Johan Nissen", "Marcus Diemar", "Danni", "Morten Pedersen", "Alexander Christensen", "Asger Duus", "Viggo Bro", "Kasper Jakobsen"],
         tags: ["københavn"],
-        date: new Date("2016-04-28")
+        date: new Date("2014-04-28")
     },
     {
         name: "STREET JAM COPENHAGEN 2016",
@@ -45,7 +46,234 @@ export const ARKIV: Video[] = [
         tags: ["dgp2", "Barcelona", "København", "Peter"],
         date: new Date("2013-03-02")
     },
+    {
+        name: "Niklas Svane Bentzen - All Access Skatepark",
+        desc: `Edit fra All Access Skatepark i Randers. filmet og redigeret af Martin Paarup`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/ZtHA5BeoGxY",
+        riders: ["Niklas Bentzen"],
+        tags: ["Randers", "All Access"],
+        date: new Date("2012-05-24")
+    },
+    {
+        name: "Martin & Inuk Welcome to Rite.se",
+        desc: `Martin Paarup og Inuk Siegstad`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/HGc3tr1i8Rw",
+        riders: ["Niklas Bentzen"],
+        tags: ["Randers"],
+        date: new Date("2013-09-25")
+    },
+    {
+        name: "One night in silkeborg - Martin Paarup",
+        desc: `Gode grin og bangers. Filmet over en enkelt aften i Silkeborg skatepark`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/2BV3fWM8eWM",
+        riders: ["Kasper Jakobsen", "Martin Paarup", "Inuk Siegstad", "Lasse Søltoft", "Jannik Nielsen", "Victor ottesen", "Jakob Rosendal"],
+        tags: ["Randers"],
+        date: new Date("2014-09-30")
+    },
+    {
+        name: "Martin Paarup in Lisbon",
+        desc: ` `,
+        videoUrl: "https://www.youtube-nocookie.com/embed/iaJdGcsK-2E",
+        riders: ["Martin Paarup"],
+        tags: ["Lisabon"],
+        date: new Date("2015-02-24")
+    },
+    {
+        name: "Welcome to Soud Distrio - Martin Paarup",
+        desc: `Filmet i Barcelona`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/x6aBT63sUjA",
+        riders: ["Martin Paarup"],
+        tags: ["Barcelona"],
+        date: new Date("2015-02-24")
+    },
+    {
+        name: "Rasmus Primby X Martin Paarup Iphone edit",
+        desc: `Filmet i Randers`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/x6aBT63sUjA",
+        riders: ["Martin Paarup", "Rasmus Primby", "Lasse Søltoft"],
+        tags: ["Randers"],
+        date: new Date("2016-06-08")
+    },
+    {
+        name: "Martin Paarup in Amsterdam",
+        desc: `Filmet af Victor Ottesen og Andreas Bank `,
+        videoUrl: "https://www.youtube-nocookie.com/embed/kc_ba7GEVqI",
+        riders: ["Martin Paarup"],
+        tags: ["Amsterdam"],
+        date: new Date("2017-11-22")
+    },
+    {
+        name: "MARCUS DIEMAR - Welcome to Merrit",
+        desc: `Merrit: "Proud to announce tech combo wizard Marcus Diemar as the latest addition to our International Team! Hailing from Copenhagen, Denmark Marcus is representing Merritt through the help of Centrano/SkatePro."`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/h9Scqkn7JV0",
+        riders: ["Marcus Diemar"],
+        tags: ["København"],
+        date: new Date("2018-07-13")
+    },
+    {
+        name: "MARCUS DIEMAR - Merrit",
+        desc: `Merrit: "Merrit: "Marcus stacked up a few clips while Scott was out visiting Copenhagen. Filmed and edit Scot McMenamin."`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/2JM2Mv5Gxo4",
+        riders: ["Marcus Diemar"],
+        tags: ["København"],
+        date: new Date("2019-08-02")
+    },
+    {
+        name: "Marcus Diemar - Copenhagen Summer",
+        desc: `Filmet of redigeret af Jonathan Paver Gregersen: "I spend this summer filming for this edit with Marcus Diemar in Copenhagen. We've had a lot of fun and been chilling in the summer sun, stacking clips - whenever the rain didn't ruin our day - or most of it."`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/rkKgfeop46E",
+        riders: ["Marcus Diemar"],
+        tags: ["København", "Jonathan Paver"],
+        date: new Date("2017-11-13")
+    },
+    {
+        name: "Aksel Breum - Iphone Mix Copenhagen 2018",
+        desc: `Aksel Breum vil gerne give Steve Jobs og resten af hans hold et kæmpe tak for at designe Iphonen.`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/eeJh3rGDEbk",
+        riders: ["Marcus Diemar", "Lito Abarca", "Asger Duus", "Patrick Dahlerup", "Aksel Breum", "Martin Jessin", "Lasse Pelle"],
+        tags: ["København", "Jonathan Paver"],
+        date: new Date("2018-12-21")
+    },
+    {
+        name: "Copenhagen streetjam 2019 - Aksel Breums Highlights",
+        desc: `Aksel Breum: "Rigtig drengerøvsjam"`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/1tfYBlW-680",
+        riders: ["Marcus Diemar", "Lito Abarca", "Asger Duus", "Patrick Dahlerup", "Aksel Breum", "Martin Jessin", "Lasse Pelle", "silas", "Tejnø"],
+        tags: ["København", "Gade BMX", "streetjam"],
+        date: new Date("2019-08-07")
+    },
+    {
+        name: "Copenhagen Street Jam Vol. 5 (2020 Covid Edition) by GadeBMX",
+        desc: `Official Edit of Copenhagen Street Jam Vol.5 2020 by Lasse Christensen`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/MKJVtABWTQg",
+        riders: ["Marcus Diemar", "Asger Duus", "Patrick Dahlerup", "Aksel Breum", "Martin Jessin", "Lasse Pelle", "Tejnø", "Alexander Kure", "Johan Nissen"],
+        tags: ["København", "Gade BMX", "streetjam"],
+        date: new Date("2020-12-03")
+    },
+    {
+        name: "Copenhagen Street Jam 2018 - Anthony Panza",
+        desc: `Klips fra Copenhagen Street Jam 2018 filmet af Anthony Panza`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/t16e9Kl_sh4",
+        riders: ["Marcus Diemar", "Martin Jessin", "Tejnø", "Alexander Kure", "Johan Nissen"],
+        tags: ["København", "Gade BMX", "streetjam", "Anthony Panza"],
+        date: new Date("2018-07-01")
+    },
+    {
+        name: "Copenhagen Street Jam 2019 - Billy Perry",
+        desc: `Klips fra Copenhagen Street Jam 2019 filmet af Billy Perry`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/rimDo0oE1QM",
+        riders: ["Marcus Diemar", "Martin Jessin", "Tejnø", "Alexander Kure", "Johan Nissen"],
+        tags: ["København", "Gade BMX", "streetjam", "Billy Perry"],
+        date: new Date("2019-07-02")
+    },
+    {
+        name: "2 liter mælk, små cykler..",
+        desc: `Filmet og redigeret af Lasse Rask`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/Fldc4a6lLWY",
+        riders: ["Sebastian Tao Fog"],
+        tags: ["tjele efterskole", "Lasse Rask"],
+        date: new Date("2014-09-01")
+    },
+
+
+
+    // VIMEO
+    {
+        name: "Q Late Summer",
+        desc: `Jonathan Gregersen: "Sensommer vibes fra Roskilde, med Q i hovedrollen og mig bag kameraet/ne. Nyd den! Vi har nydt at lave den !"`,
+        videoUrl: "https://player.vimeo.com/video/106866903",
+        riders: ["Rasmus Q"],
+        tags: ["Roskilde", "Jonathan Gregersen"],
+        date: new Date("2014-09-22")
+    },
+    {
+        name: "Midnatssol session",
+        desc: `En sen session i Roskildes hal12 af Jonathan Gregersen`,
+        videoUrl: "https://player.vimeo.com/video/149632743",
+        riders: ["Marcus Diemar", "Martin Jessin", "Johan Nissen"],
+        tags: ["Roskilde", "Jonathan Gregersen"],
+        date: new Date("2015-12-21")
+    },
+    {
+        name: "Desværre",
+        desc: `Længere video fra Roskilde af Jonathan Gregersen`,
+        videoUrl: "https://player.vimeo.com/video/96436230",
+        riders: ["Marcus Diemar", "Martin Jessin", "Rasmus Lynge", "Rasmus Q", "Zean Poulsen", "Jonathan Gregersen", "Gilbert Andersen", "Martin Lind"],
+        tags: ["Roskilde", "Jonathan Gregersen"],
+        date: new Date("2015-09-21")
+    },
+    {
+        name: "#xmasjam13",
+        desc: `Jonathan Gregersen: "En kort video, fra et super svedigt jam, fyldt med bmx, druk, søvnløshed og alt for lidt god musik."`,
+        videoUrl: "https://player.vimeo.com/video/82240894",
+        riders: ["Marcus Diemar", "Martin Jessin", "Rasmus Lynge", "Rasmus Q", , "Jonathan Gregersen", "Janick Nielsen", "Lasse Søltoft", "Viggo Bro"],
+        tags: ["Aalborg", "Jonathan Gregersen", "x-mas"],
+        date: new Date("2013-12-18")
+    },
+    {
+        name: "X-mas jam 2008",
+        desc: `Michael Larsen: "Lidt klip fra x-mas jam 2008 i Vejgaard skatehal."`,
+        videoUrl: "https://player.vimeo.com/video/82240894",
+        riders: ["Michael Larsen", "Morten Pedersen", "Niels Tanild", "Lasse Søltoft", , "Kim Møldrup", "John Brun", "Morten Larsen"],
+        tags: ["Aalborg", "Michael Larsen", "x-mas"],
+        date: new Date("2008-12-18")
+    },
+    {
+        name: "HOLD FAST #1 - intro",
+        desc: `Den første store video fra det gamle Hold Fast Crew. Find alle dele på http://holdfast1.blogspot.com/`,
+        videoUrl: "https://player.vimeo.com/video/8485724",
+        riders: ["Michael Larsen", "Morten Pedersen", "Morten Larsen", "Lasse Søltoft"],
+        tags: ["Aalborg", "Michael Larsen", "x-mas"],
+        date: new Date("2009-12-12")
+    },
+    {
+        name: "BMXslisken i Minihuset",
+        desc: `Session fra den nu lukkede skatepark "Minihuset" i Viborg.`,
+        videoUrl: "https://player.vimeo.com/video/16724812",
+        riders: ["Michael Larsen", "Morten Pedersen", "Morten Larsen", "Lasse Søltoft", "Peter Svendsen"],
+        tags: ["Viborg", "Michael Larsen", "minihuset"],
+        date: new Date("2010-11-11")
+    },
+    {
+        name: "Hold Fast #2 del 1",
+        desc: `Den anden store video fra det gamle Hold Fast Crew. Find alle dele på http://holdfast2.blogspot.com/`,
+        videoUrl: "https://player.vimeo.com/video/18546948",
+        riders: ["Michael Larsen", "Morten Pedersen", "Morten Larsen", "Lasse Søltoft", "Gregers Pedersen", "Lasse Bech", "Jakob Holm", "Jakob Larsen", "Paw Friis", "Niklas Svane"],
+        tags: ["Aalborg", "Michael Larsen", "hold fast"],
+        date: new Date("2010-12-11")
+    },
+    {
+        name: "Hold Fast #3 del 1",
+        desc: `En tredje store video fra det gamle Hold Fast Crew. Find alle dele på Michael Larsens Vimeo`,
+        videoUrl: "https://player.vimeo.com/video/47368636",
+        riders: ["Michael Larsen", "Morten Pedersen", "Morten Larsen", "Niklas Svane", "Mik Krogh", "Travis Johnston", "Jakob Larsen", "Konstantin Dragun", "Tilano Roser", "Emil Frandsen", "Tobias Öreteg", "Kim Møldrup", "Asger Duus", "Danni Lærkegaard"],
+        tags: ["Aalborg", "Michael Larsen", "hold fast"],
+        date: new Date("2011-12-11")
+    },
+    {
+        name: "Xmas jam 2012",
+        desc: `Klips fra x-mas jam 2012 i Vejgaard skatehal Aalborg.`,
+        videoUrl: "https://player.vimeo.com/video/47368636",
+        riders: ["Michael Larsen", "Morten Pedersen", "Morten Larsen", "Niklas Svane", "Oliver pless","Alexander Christensen", "Martin Paarup", "Inuk Siegstad", "Lasse Søltoft"],
+        tags: ["Aalborg", "Michael Larsen", "hold fast"],
+        date: new Date("2012-12-11")
+    },
+    {
+        name: "Svendborg Cooltour Jam",
+        desc: `Ledge action fra Svendborg Cooltour Jam`,
+        videoUrl: "https://player.vimeo.com/video/59419803",
+        riders: ["Michael Larsen", "Morten Larsen", "Xander", ],
+        tags: ["Svendborg ", "Michael Larsen", "hold fast"],
+        date: new Date("2013-02-11")
+    },
 ]
+
+
+
+
+
+
+
 
 export const VVK2020: Video[] = [
     {
@@ -124,7 +352,6 @@ export const VVK2020: Video[] = [
     },
     {
         name: "fknshtbmx",
-
         riders: ["Jeppe Klinkby", "Martin Skovgaard"],
         tags: ["aalborg"],
         date: new Date("2021-03-29"),
@@ -149,7 +376,6 @@ export const VVK2020: Video[] = [
     },
     {
         name: "Party Pøller",
-
         riders: ["Jakob Rosendal"],
         tags: ["glejbjerg"],
         date: new Date("2021-04-01"),

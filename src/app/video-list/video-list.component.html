@@ -1,7 +1,14 @@
 <div class="row">
-    <div *ngFor="let video of videos" class="col-sm-12 col-md-6 col-lg-3 eventVideo"
-        (click)="openVideoDialog(video)">
-        <img class="thumbNail" src="{{getVideoId(video.videoUrl)}}">
+    <div *ngFor="let video of videos" class="col-sm-12 col-md-6 col-lg-3 eventVideo" (click)="openVideoDialog(video)">
+
+
+        <img *ngIf="video.videoUrl.includes('youtube'); else vimeo" class="thumbNail"
+            src="{{getYoutubeThumbnailUrl(video.videoUrl)}}">
+
+        <ng-template #vimeo>
+            <img  class="thumbNail" [src]="vimeoThumbnails.get(video.videoUrl)"> 
+        </ng-template>
+
         <h2>{{video.name}}</h2>
         <p class="overflow">{{video.desc}} </p>
         <p style="color: grey;"><strong>{{video.date.toLocaleDateString("da-DK")}}</strong></p>

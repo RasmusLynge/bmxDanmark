@@ -11,9 +11,9 @@
               <mat-label>Søg BMX-video</mat-label>
               <input matInput placeholder="Ex. Lasse Søltoft" (input)="onSearchChange($event.target.value)" >
             </mat-form-field>
-            <mat-form-field class="search-sorter" appearance="fill">
+            <mat-form-field  class="search-sorter" appearance="fill">
                 <mat-label>Sortering</mat-label>
-                <mat-select>
+                <mat-select #chosenValue (valueChange)="sort(chosenValue.value)">
                   <mat-option *ngFor="let sort of sorting" [value]="sort.value">
                     {{sort.viewValue}}
                   </mat-option>
