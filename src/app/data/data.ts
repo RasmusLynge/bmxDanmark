@@ -89,7 +89,7 @@ export const ARKIV: Video[] = [
     {
         name: "Rasmus Primby X Martin Paarup Iphone edit",
         desc: `Filmet i Randers`,
-        videoUrl: "https://www.youtube-nocookie.com/embed/x6aBT63sUjA",
+        videoUrl: "https://www.youtube-nocookie.com/embed/b3iLFACfbFk",
         riders: ["Martin Paarup", "Rasmus Primby", "Lasse Søltoft"],
         tags: ["Randers"],
         date: new Date("2016-06-08")
@@ -174,6 +174,25 @@ export const ARKIV: Video[] = [
         tags: ["tjele efterskole", "Lasse Rask"],
         date: new Date("2014-09-01")
     },
+    {
+        name: "Inuk Siegstad Winter edit All access skatepark",
+        desc: `"En af de bedste danske skatepark edits efter min mening!" - Rasmus Lynge`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/O6TETDtnDwg",
+        riders: ["Inuk Siegstad"],
+        tags: ["Randers", "All Access"],
+        date: new Date("2013-12-11")
+    },
+    {
+        name: "Inuk Siegstad Sisimiut street",
+        desc: `Filmet i Sisimiut på Grønland af Aqqalunnguaq Helmann, Rune Enoksen og Looqi Olsen`,
+        videoUrl: "https://www.youtube-nocookie.com/embed/vOnn2-P9fzQ",
+        riders: ["Inuk Siegstad"],
+        tags: ["Sisimiut", "Grønland"],
+        date: new Date("2013-07-13")
+    },
+
+
+
 
 
 
@@ -266,6 +285,187 @@ export const ARKIV: Video[] = [
         tags: ["Svendborg ", "Michael Larsen", "hold fast"],
         date: new Date("2013-02-11")
     },
+    {
+        name: "Krusty.dk Copenhagen Streetbeat 2007. Part 1/2",
+        desc: `"Copenhagen Street Beat 2007. Annual street get-together for BMX and MTB held in Denmark." Find part 2 på vimeo kanalen "mthorsen"`,
+        videoUrl: "https://player.vimeo.com/video/1160315",
+        riders: [ ],
+        tags: ["København ", "Street Beat"],
+        date: new Date("2007")
+    },
+    {
+        name: "Krusty.dk Copenhagen Streetbeat 2006.",
+        desc: `"Copenhagen Street Beat 2006. Annual street get-together for BMX and MTB held in Denmark."`,
+        videoUrl: "https://player.vimeo.com/video/1162958",
+        riders: [ ],
+        tags: ["København ", "Street Beat"],
+        date: new Date("2006")
+    },
+    {
+        name: "Krusty.dk Copenhagen Streetbeat 2008. HighLight. Part 1/5",
+        desc: `"Copenhagen Street Beat 2008. Annual street get-together for BMX and MTB held in Denmark." find resten på vimeo kanalen "mthorsen"`,
+        videoUrl: "https://player.vimeo.com/video/1160559",
+        riders: [ ],
+        tags: ["København ", "Street Beat"],
+        date: new Date("2008")
+    },
+    {
+        name: "Dirt Jump Jam 2011",
+        desc: `Simon Møller: "A cool day with lots of tricks and backflips!"`,
+        videoUrl: "https://player.vimeo.com/video/28980769",
+        riders: [ "Gregers Pedersen", "Simon Møller Andersen", "Martin Ilsø", "Martin Jessin", "Lasse Bech", "Stefan" ],
+        tags: ["Viborg ", "Hullerne"],
+        date: new Date("2011-09-13")
+    },
+    {
+        name: "The Monster Energy Copenhagen BMX Open",
+        desc: `Første Jam i den nu lukkede Port4130.`,
+        videoUrl: "https://player.vimeo.com/video/75320761",
+        riders: [ ],
+        tags: ["Port4130 ", "København"],
+        date: new Date("2013-09-24")
+    },
+    {
+        name: "BMX Butikken :: Asger December",
+        desc: `"Asger's clips from the spring and winter of 2010, from spots around Copenhagen and Roskilde, Denmark." - Se hvordan hal12 og x-hall så ud tilbage i tiden.`,
+        videoUrl: "https://player.vimeo.com/video/17521367",
+        riders: [ "Asger Duus" ],
+        tags: ["BMX butikken", "København"],
+        date: new Date("2010-12-06")
+    },
+    {
+        name: "Valde Høll",
+        desc: `Roofdrop på rusten cykel.`,
+        videoUrl: "https://player.vimeo.com/video/105689769",
+        riders: [ "Valde Høll" ],
+        tags: ["Emil Søby"],
+        date: new Date("2014-09-09")
+    },
+    {
+        name: "Take it to the streets spring sessions",
+        desc: `Mad Chills Crew Jam fra Aarhus`,
+        videoUrl: "https://player.vimeo.com/video/91342034",
+        riders: [ "Lasse Søltoft", "Inuk Siegstad", "Jakob Rosendal", "Michael Larsen" ],
+        tags: ["Mad Chills", "Paw Friis"],
+        date: new Date("2014-04-07")
+    },
+    {
+        name: "FUCK SWAG BMX SESSION",
+        desc: `Mad Chills Crew Jam fra Odense`,
+        videoUrl: "https://player.vimeo.com/video/62595938",
+        riders: [ "Lasse Søltoft", "Johan Nissen", "Jakob Rosendal", "Michael Larsen", "Andres Bank"],
+        tags: ["Mad Chills", "Paw Friis", "Odense"],
+        date: new Date("2013-03-25")
+    },
+    {
+        name: "Lasse Søltoft Bmx Edit // Spring ",
+        desc: `Paw Friis: "A lot of hard work, and many hours later we are finally proud to introduce this beast street edit with Lasse Søltoft from Denmark. Lasse is 25 years old, lives in Aarhus, and has been riding for nearly 7 years now. Enjoy!!"`,
+        videoUrl: "https://player.vimeo.com/video/67472359",
+        riders: [ "Lasse Søltoft"],
+        tags: ["Mad Chills", "Paw Friis", "Aarhus"],
+        date: new Date("2013-05-01")
+    },
+    {
+        name: "Inuk Siegstad Bmx Edit // Spring ",
+        desc: `Inkus Edit filmet i Aarhus`,
+        videoUrl: "https://player.vimeo.com/video/64890779",
+        riders: [ "Inuk Siegstad"],
+        tags: ["Mad Chills", "Paw Friis", "Aarhus"],
+        date: new Date("2013-05-03")
+    },
+    {
+        name: "Fuck Swag Jam V2.",
+        desc: `Fuck Swag Jam V2. 2013 fra Odense`,
+        videoUrl: "https://player.vimeo.com/video/76793449",
+        riders: [ "Lasse Søltoft", "Morten Pedersen", "Michael Larsen", "Morten Larsen", "Viggo Bro"],
+        tags: ["Mad Chills", "Paw Friis", "Odense"],
+        date: new Date("2013-10-13")
+    },
+    {
+        name: "Mad Chills / X-Mas Bmx Jam 2013",
+        desc: `Mad Chills til X-Mas Bmx Jam 2013 i Aalborg`,
+        videoUrl: "https://player.vimeo.com/video/81922471",
+        riders: [ "Lasse Søltoft", "Morten Pedersen", "Chris Clausen", "Kasper Jakobsen", "Martin Jessin"],
+        tags: ["Mad Chills", "Paw Friis", "Aalborg"],
+        date: new Date("2013-12-15")
+    },
+    {
+        name: "Chris Clausen Edit 2014",
+        desc: `Mad Chills Chris Clausen edit`,
+        videoUrl: "https://player.vimeo.com/video/93656281",
+        riders: [ "Chris Clausen"],
+        tags: ["Mad Chills", "Paw Friis"],
+        date: new Date("2014-05-14")
+    },
+    {
+        name: "The Mad Chills Crew. Road Trip 14",
+        desc: `Mad Chills roadtrip på Sjælland`,
+        videoUrl: "https://player.vimeo.com/video/103442689",
+        riders: [ "Chris Clausen", "Kasper Jakobsen", "Martin Paarup", "Andreas Bank", "Lasse Søltoft"],
+        tags: ["Mad Chills", "Paw Friis"],
+        date: new Date("2014-08-14")
+    },
+    {
+        name: "Bike - Fight 2014",
+        desc: `Podium: 1 Vincent Unrath 2 Inuk Siegstad 3 Jackie Brun`,
+        videoUrl: "https://player.vimeo.com/video/105495591",
+        riders: [ "Kasper Jakobsen", "Martin Paarup", "Oliver Pless", "Lasse Søltoft", "Inuk Siegstad"],
+        tags: ["Mad Chills", "Paw Friis"],
+        date: new Date("2014-09-07")
+    },
+    {
+        name: "Lasse Søltoft in Lisbon",
+        desc: ` `,
+        videoUrl: "https://player.vimeo.com/video/118989322",
+        riders: [  "Lasse Søltoft" ],
+        tags: ["Mad Chills", "Paw Friis"],
+        date: new Date("2015-02-07")
+    },
+    {
+        name: "Goodtimes Mad Chills Crew",
+        desc: `Mad Chills Crew i allaccess Skate Park`,
+        videoUrl: "https://player.vimeo.com/video/120936607",
+        riders: [  "Lasse Søltoft", "Martin Paarup", "Chris Clausen" ],
+        tags: ["Mad Chills", "Paw Friis"],
+        date: new Date("2015-03-07")
+    },
+    {
+        name: "Split - Mad Chills",
+        desc: `Mad Chills split edit med Lasse Søltoft & Kasper Jakobsen`,
+        videoUrl: "https://player.vimeo.com/video/125387003",
+        riders: [  "Lasse Søltoft", "Kasper Jakobsen" ],
+        tags: ["Mad Chills", "Paw Friis"],
+        date: new Date("2015-04-19")
+    },
+    {
+        name: "The Mad Chills Crew - Bike fight 2015",
+        desc: `Bike Fight 2015 Randers`,
+        videoUrl: "https://player.vimeo.com/video/135837720",
+        riders: [  "Lasse Søltoft", "Kasper Jakobsen", "Martin Paarup", "Chris Clausen", "Paalu Rosing" ],
+        tags: ["Mad Chills", "Paw Friis", "Randers", "Bike fight"],
+        date: new Date("2015-08-10")
+    },
+    {
+        name: "Bike Fight - Red Bull 15",
+        desc: `Bike Fight 2015 Randers`,
+        videoUrl: "https://player.vimeo.com/video/136940686",
+        riders: [  "Jackie Brun", "Kasper Jakobsen", "Thomas Tarzan", "Inuk Siegstad", "Paalu Rosing" ],
+        tags: ["Mad Chills", "Paw Friis", "Randers", "Bike fight"],
+        date: new Date("2015-08-10")
+    },
+    {
+        name: "The Mad Chills Crew in Malaga",
+        desc: `The Mad Chills Crew i Malaga`,
+        videoUrl: "https://player.vimeo.com/video/143791698",
+        riders: [  "Lasse Søltoft","Andreas Bank", "Martin Paarup" ],
+        tags: ["Mad Chills", "Paw Friis",],
+        date: new Date("2015-10-27")
+    },
+
+
+
+
+
 ]
 
 

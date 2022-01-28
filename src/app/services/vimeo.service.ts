@@ -28,7 +28,6 @@ export class VimeoService {
   }
 
   getVideoThumbnail(imageUrl: string): Observable<Blob> {
-    console.log("imageUrl", imageUrl)
     return this.http.get(imageUrl, { responseType: 'blob' });
   }
 

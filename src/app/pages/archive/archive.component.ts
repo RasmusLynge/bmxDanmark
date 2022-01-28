@@ -74,7 +74,6 @@ export class ArchiveComponent implements OnInit {
 
 
   filterLists(searchStr: string, params: string[]): boolean {
-    console.log("serach", searchStr, params)
     var matches = false;
     params.filter(
       item => {

@@ -12,11 +12,10 @@ export class VideoDialogComponent implements OnInit {
 
   constructor(@Inject(MAT_DIALOG_DATA) public video: Video, private sanitizer: DomSanitizer) { }
 
-  ngOnInit(): void {
-  }
+  videoUrl: SafeResourceUrl = "";
 
-  updateVideo(url: string): any {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+  ngOnInit(): void {
+    this.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.video.videoUrl);
   }
 
   getId(str: string): string {

@@ -26,7 +26,6 @@ export class VideoListComponent implements OnInit {
     this.videos.forEach(video => {
       if (video.videoUrl.includes('vimeo')) {
         this.vimeoService.getVimeoVideoThumbnailUrl(video.videoUrl.split("/").pop()).subscribe(res => {
-          console.log(res)
           this.vimeoThumbnails.set(video.videoUrl, res)
         })
       }
@@ -45,11 +44,16 @@ export class VideoListComponent implements OnInit {
     else return window.innerHeight - 20 + "px"
   }
 
+  chooseDialogWidth(): string {
+    return window.innerWidth +100 + 'px'
+    
+  }
+
   openVideoDialog(video: Video) {
     const dialogRef = this.dialog.open(VideoDialogComponent, {
       panelClass: 'app-full-bleed-dialog',
-      width: "1200px",
-      height: this.chooseDialogHeight(),
+      width: this.chooseDialogWidth(),
+      maxHeight: this.chooseDialogHeight(),
       autoFocus: false,
       data: video
 
@@ -57,7 +61,6 @@ export class VideoListComponent implements OnInit {
   }
 
   ngOnChanges(changes: any) {
-    console.log(changes);
   }
 
 

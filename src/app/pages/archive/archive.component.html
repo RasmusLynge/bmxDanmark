@@ -1,32 +1,34 @@
 <div class="container">
 
-    <h1>ARKIVET</h1>
-    <p>Her i arkivet kan du finde danske BMX-videoer.</p>
-    <p>Da det til tider kan være svært at finde de gamle danske BMX-videoer, vil jeg løbende prøve at samle nogle af dem jeg kender. Hvis du syntes at der mangler nogle, så skriv til vores <a class="link" style="color: #c2185b" href="https://www.instagram.com/bmxdanmark/"
-        target="_blank" matTooltip="Find os på Instagram">Instagram</a></p>
+  <h1>ARKIVET</h1>
+  <p>Her i arkivet kan du finde danske BMX-videoer.</p>
+  <p>Det kan til tider være svært at finde de gamle danske BMX-videoer, så jeg vil løbende prøve at samle nogle af dem
+    jeg kender her.</p>
+
+  <p> På nuværende tidspunkt kan du finde {{allVideos.length}} nedenfor. Hvis du syntes at der mangler nogle, så skriv til vores <a class="link" style="color: #c2185b"
+      href="https://www.instagram.com/bmxdanmark/" target="_blank" matTooltip="Find os på Instagram">Instagram</a>.</p>
+
+  <form class="">
+    <mat-form-field class="search-input" appearance="fill">
+      <mat-label>Søg BMX-video</mat-label>
+      <input matInput placeholder="Ex. navn, årstal eller by" (input)="onSearchChange($event.target.value)">
+    </mat-form-field>
+    <mat-form-field class="search-sorter" appearance="fill">
+      <mat-label>Sortering</mat-label>
+      <mat-select #chosenValue (valueChange)="sort(chosenValue.value)">
+        <mat-option *ngFor="let sort of sorting" [value]="sort.value">
+          {{sort.viewValue}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </form>
 
 
-        <form class="">
-            <mat-form-field class="search-input" appearance="fill">
-              <mat-label>Søg BMX-video</mat-label>
-              <input matInput placeholder="Ex. Lasse Søltoft" (input)="onSearchChange($event.target.value)" >
-            </mat-form-field>
-            <mat-form-field  class="search-sorter" appearance="fill">
-                <mat-label>Sortering</mat-label>
-                <mat-select #chosenValue (valueChange)="sort(chosenValue.value)">
-                  <mat-option *ngFor="let sort of sorting" [value]="sort.value">
-                    {{sort.viewValue}}
-                  </mat-option>
-                </mat-select>
-              </mat-form-field>
-          </form>
-          
-        
 
-            <app-video-list [videos]="videos"></app-video-list>
-    
-    
-    
-     
-  
+  <app-video-list [videos]="videos"></app-video-list>
+
+
+
+
+
 </div>

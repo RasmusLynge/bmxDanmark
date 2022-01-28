@@ -9,7 +9,7 @@
             <img  class="thumbNail" [src]="vimeoThumbnails.get(video.videoUrl)"> 
         </ng-template>
 
-        <h2>{{video.name}}</h2>
+        <h2 class="title" >{{video.name}}</h2>
         <p class="overflow">{{video.desc}} </p>
         <p style="color: grey;"><strong>{{video.date.toLocaleDateString("da-DK")}}</strong></p>
     </div>
