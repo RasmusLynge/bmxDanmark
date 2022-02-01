@@ -14,8 +14,8 @@
 
 
         </div>
+        
         <div class="col-sm-12 col-md-8 header-image"></div>
-
 
         <div class="col-sm-12 col-md-4 rules">
             <h1>Kategorier</h1>
@@ -94,6 +94,7 @@
 
 
     </div>
+    
 
     <div class="row" style="text-align: center; padding: 10px;">
         <div class="col-md-12 col-lg-6">
@@ -123,9 +124,13 @@
             </a>
         </div>
     </div>
-
+    <hr class="solid">
+    <h1>Vindere:</h1>
+  
+    <app-video-list [videos]="winningVideos"></app-video-list>
+    <hr class="solid">
     <h1>Videoerne:</h1>
     <app-video-list [videos]="videos"></app-video-list>
 
-    <hr class="solid">
+    
 </div>
